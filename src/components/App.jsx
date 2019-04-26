@@ -7,30 +7,45 @@ function App(){
     display: 'grid',
     gridTemplateColumns: '30vw 50vw',
     gridgap: '80px'
-  }
+  };
   return (
     <div>
       <style jsx global>{`
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+
         body {
-          padding: 50px;
+          background-color: black;
+          color: white;
+          font-family: 'Roboto', sans-serif;
         }
-        .clickable {
+        button {
+          background-color: white;
           color: black;
         }
-        .clickable:hover {
+        button:hover {
           cursor: pointer;
-          color: white;
+          color: grey;
+        }
+
+        .nav {
+          font-size: 34px;
+          padding: 1em;
+          text-align: right;
+        }
+
+        #logo {
+          width: 35px;
         }
       `}</style>
 
-        <div>
-      <Header/>
+      <div>
+        <Header/>
       </div>
 
       <div style={columns}>
-      <div>
-      <KegList/>
-      </div>
+        <div>
+          <KegList/>
+        </div>
    
       </div>
 

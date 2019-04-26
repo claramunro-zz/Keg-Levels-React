@@ -1,4 +1,4 @@
-# Keg Levels
+# Keg Levels  :beers:
 
 Initially built with Angular, this is a react app to track bar keg levels.
 
@@ -6,16 +6,18 @@ Initially built with Angular, this is a react app to track bar keg levels.
 
 ![Component-Tree](/images/Keg-Levels.png)
 
-### Notes on Tree
-
 * Creating a seperate view for the New Keg Form
 * Error 404 Page, possibly add some styling
 * Once I add stateful components I'm sure things will change up a bit
 * React structure seems to make more sense to me than Angular, I'm sure there are something I don't know but so far I'm feeling good about it!
 
-## Setup Instructions
+## Setup Instructions :white_check_mark:
 
-Will add.
+* Clone repository on your local computer
+* Navigate into project directory
+* Install node package manager if not already installed
+* Run '$ npm install' to download all dependencies
+* Run '$ npm run start' to serve the app on localhost:8080
 
 ## Angular vs. React
 
@@ -24,7 +26,7 @@ Will add.
 * Programming in React without prior planning is difficult and leads to more problems by comparison
 * No services to handle move info around in React
 
-## Languages / Libraries Used :computer:
+## Languages / Libraries Used   :computer:
 * Webpack
 * React
 * JSX
