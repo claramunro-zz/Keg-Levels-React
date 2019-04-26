@@ -14,7 +14,7 @@ function NewKeg(props){
   
   function handleNewKegSubmission(event) {
     event.preventDefault();
-    props.onNewTicketCreation({name: _name.value, _brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value});
+    props.onNewKegCreation({name: _name.value, _brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value});
     _name.value = '';
     _brand.value = '';
     _style.value = '';
@@ -28,7 +28,7 @@ function NewKeg(props){
 
       <div class='formName'>
         <p>New Keg Form</p>
-        <form>
+        <form onSubmit={handleNewKegSubmission}>
           <input
             type='text'
             id='name'
@@ -36,24 +36,24 @@ function NewKeg(props){
             ref={(input) => { _name = input; }} />
           <input
             type='text'
-            id='name'
+            id='brancd'
             placeholder='brand'
             ref={(input) => { _name = input; }} />
           <input
             type='text'
-            id='name'
+            id='style'
             placeholder='style'
             ref={(input) => { _name = input; }} />
           <input
             type='text'
-            id='name'
+            id='alc'
             placeholder='alc'
             ref={(input) => { _name = input; }} />
           <input
             type='text'
-            id='name'
+            id='price'
             placeholder='price'
-            ></input>
+            ref={(input) => { _name = input; }} />
 
           <button type='submit'>SUBMIT</button>
         </form>
@@ -66,5 +66,9 @@ function NewKeg(props){
     </div>
   );
 }
+
+NewKeg.propTypes = {
+  onNewKegCreation: PropTypes.func
+};
 
 export default NewKeg;
