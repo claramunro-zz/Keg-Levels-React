@@ -7,7 +7,7 @@ function About(){
     <div>
       <div>
         <h1>About Us</h1>
-        <p>Lorem Ipsum</p>
+        <p>Lorem Ipsum, Lorem</p>
       </div>
       <div>
         <Link to="/"><button>BACK</button></Link>
