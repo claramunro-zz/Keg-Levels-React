@@ -1,4 +1,4 @@
-# KEG LEVElS
+# Keg Levels
 
 Initially built with Angular, this is a react app to track bar keg levels.
 
