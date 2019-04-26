@@ -36,24 +36,24 @@ function NewKeg(props){
             ref={(input) => { _name = input; }} />
           <input
             type='text'
-            id='brancd'
+            id='brand'
             placeholder='brand'
-            ref={(input) => { _name = input; }} />
+            ref={(input) => { _brand = input; }} />
           <input
             type='text'
             id='style'
             placeholder='style'
-            ref={(input) => { _name = input; }} />
+            ref={(input) => { _style = input; }} />
           <input
             type='text'
             id='alc'
             placeholder='alc'
-            ref={(input) => { _name = input; }} />
+            ref={(input) => { _alc = input; }} />
           <input
             type='text'
             id='price'
             placeholder='price'
-            ref={(input) => { _name = input; }} />
+            ref={(input) => { _price = input; }} />
 
           <button type='submit'>SUBMIT</button>
         </form>
