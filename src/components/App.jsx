@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import KegList from './KegList';
+import NewKeg from './NewKeg';
+import { Switch, Route } from 'react-router-dom';
+
 
 function App(){
   let columns = {
     display: 'grid',
-    gridTemplateColumns: '30vw 50vw',
-    gridgap: '80px'
+    gridTemplateColumns: '1fr',
+    gridgap: '10px'
   };
   return (
     <div>
@@ -26,26 +29,26 @@ function App(){
           cursor: pointer;
           color: grey;
         }
-
         .nav {
           font-size: 34px;
           padding: 1em;
           text-align: right;
         }
-
         #logo {
           width: 35px;
         }
       `}</style>
 
-      <div>
+      <div style={columns}>
         <Header/>
       </div>
 
-      <div style={columns}>
-        <div>
-          <KegList/>
-        </div>
+      <Switch>
+        <Route exact path='/' component={KegList} />
+        <Route path='/newKeg' component={NewKeg} />
+      </Switch>
+
+      <div>
    
       </div>
 

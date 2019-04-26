@@ -10,7 +10,10 @@ function NewKeg(){
       <input type='text' placeholder="cost $"></input>
       <button>SUBMIT</button>
     </div>
-  );
+    <div>
+        <button>BACK</button>
+    </div>
+);
 }
 
 export default NewKeg;
