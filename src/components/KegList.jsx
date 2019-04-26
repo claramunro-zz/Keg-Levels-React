@@ -1,5 +1,7 @@
 import React from 'react';
 import Kegs from './Kegs';
+import { Link } from 'react-router-dom';
+
 
 let masterKegList = [  
   {  
@@ -28,6 +30,11 @@ let masterKegList = [
 function KegList(){
   return (
     <div>
+
+      <div>
+        <Link to="/newKeg"><button>New Keg</button></Link>
+      </div>
+
       {masterKegList.map((keg, index) =>
         <Kegs
           name={keg.name}

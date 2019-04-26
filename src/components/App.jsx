@@ -22,8 +22,10 @@ function App(){
           font-family: 'Roboto', sans-serif;
         }
         button {
-          background-color: white;
-          color: black;
+          background-color: red;
+          color: color;
+          padding: .5em;
+          border-radius: 5px;
         }
         button:hover {
           cursor: pointer;
