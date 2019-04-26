@@ -24,7 +24,7 @@ Will add.
 * Programming in React without prior planning is difficult and leads to more problems by comparison
 * No services to handle move info around in React
 
-## Languages / Libraries Used
+## Languages / Libraries Used :computer:
 * Webpack
 * React
 * JSX
