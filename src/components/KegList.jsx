@@ -33,6 +33,8 @@ function KegList(){
 
       <div>
         <Link to="/newKeg"><button>New Keg</button></Link>
+        <Link to="/about"><button>About Us</button></Link>
+
       </div>
 
       {masterKegList.map((keg, index) =>
