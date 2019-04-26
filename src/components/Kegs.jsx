@@ -5,13 +5,13 @@ function Kegs(props){
   return (
     <div>
       <style jsx global>{`
-        .ticket {
+        .keg {
           font-size: 15px;
           padding: 1em 0 1em 2em;
           display: block;
         }
       `}</style>
-      <div className="ticket">
+      <div className="keg">
         <h2>{props.name}</h2>
         <h3>{props.brand}</h3>
         <p><em>{props.style}</em></p>
