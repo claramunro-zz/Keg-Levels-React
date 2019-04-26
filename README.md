@@ -11,7 +11,7 @@ Initially built with Angular, this is a react app to track bar keg levels.
 * Once I add stateful components I'm sure things will change up a bit
 * React structure seems to make more sense to me than Angular, I'm sure there are something I don't know but so far I'm feeling good about it!
 
-## Setup Instructions :white_check_mark:
+## Setup Instructions :gear:
 
 * Clone repository on your local computer
 * Navigate into project directory
