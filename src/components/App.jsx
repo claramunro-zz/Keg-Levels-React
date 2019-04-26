@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import KegList from './KegList';
 import NewKeg from './NewKeg';
 import About from './About';
@@ -19,16 +20,19 @@ function App(){
     <div>
       <style jsx global>{`
       @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+        * {
+          margin: .2em;
+        }
         body {
           background-color: black;
           color: white;
           font-family: 'Roboto', sans-serif;
+          padding: 2vw;
         }
         button {
           background-color: red;
           color: color;
-          padding: .5em;
+          padding: 1em;
           border-radius: 5px;
         }
         button:hover {
@@ -57,7 +61,7 @@ function App(){
       </Switch>
 
       <div>
-   
+        <Footer/>
       </div>
 
     </div>
