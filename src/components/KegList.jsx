@@ -56,7 +56,7 @@ function KegList(props){
 }
 
 KegList.propTypes = {
-  newList: KegList.array
+  newList: PropTypes.array
 };
 
 export default KegList;
