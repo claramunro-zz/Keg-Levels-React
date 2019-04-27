@@ -1,6 +1,6 @@
 # Keg Levels  :beers:
 
-Initially built with Angular, this is a react app to track bar keg levels.
+Initially built with Angular, this is a react app to track bar keg levels. CRUD web application for a tap house.
 
 ## Component Tree
 
