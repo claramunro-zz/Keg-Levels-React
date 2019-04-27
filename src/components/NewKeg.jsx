@@ -55,7 +55,7 @@ function NewKeg(props){
             placeholder='price'
             ref={(input) => { _price = input; }} />
 
-          <button type='submit'>SUBMIT</button>
+          <button type='submit'>SAVE</button>
         </form>
       </div>
 
