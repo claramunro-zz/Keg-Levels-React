@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import KegList from './KegList';
 import About from './About';
 import NewKegControl from './NewKegControl';
@@ -68,9 +67,6 @@ class App extends React.Component {
           <Route path='/about' component={About} />
           <Route component={Error404} />
         </Switch>
-        <div>
-          <Footer/>
-        </div>
       </div>
     );
   }
