@@ -24,6 +24,11 @@ class App extends React.Component {
     this.setState({ masterKegList: newMasterKegList });
   }
 
+  // need to link
+  handleMinusOnePint() { 
+
+  }
+
   render () {
     return (
       <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { v4 } from 'uuid';
 
 
 
@@ -14,7 +15,7 @@ function NewKeg(props){
   
   function handleNewKegSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({name: _name.value, _brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value, pintsLeft: 124});
+    props.onNewKegCreation({name: _name.value, _brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value, id: v4(), pintsLeft: 124});
     _name.value = '';
     _brand.value = '';
     _style.value = '';
