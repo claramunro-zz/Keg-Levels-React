@@ -17,6 +17,7 @@ function Kegs(props){
         <p><em>{props.style}</em></p>
         <p><b>{props.alc}</b></p>
         <p><b>{props.price}</b></p>
+        <p><b>{props.pintsLeft}</b></p>
       </div>
 
     </div>
@@ -28,7 +29,9 @@ Kegs.propTypes = {
   brand: PropTypes.string.isRequired,
   style: PropTypes.string.isRequired,
   alc: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired
+  price: PropTypes.string.isRequired,
+  pintsLeft: PropTypes.string.isRequired
+
 };
 
 export default Kegs;
