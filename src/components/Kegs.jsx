@@ -8,7 +8,7 @@ function Kegs(props){
       <style jsx global>{`
         .keg {
           font-size: 15px;
-          padding: 1em 0 1em 2em;
+          padding: 1em;
           display: block;
         }
       `}</style>
@@ -19,6 +19,8 @@ function Kegs(props){
         <p><b>{props.alc}</b></p>
         <p><b>{props.price}</b></p>
         <p><b>{props.pintsLeft} Pints Left</b></p>
+        <p><b>ID: {props.id}</b></p>
+
         <div>
           <PintButton />
         </div>
@@ -34,7 +36,8 @@ Kegs.propTypes = {
   style: PropTypes.string.isRequired,
   alc: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
-  pintsLeft: PropTypes.number.isRequired  // number type
+  pintsLeft: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired // number type
 };
 
 export default Kegs;

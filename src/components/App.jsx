@@ -5,6 +5,7 @@ import About from './About';
 import NewKegControl from './NewKegControl';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
+// import PintButton from './PintButton';
 
 
 
@@ -16,17 +17,23 @@ class App extends React.Component {
       masterKegList: []
     };
     this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
+    this.handleMinusOnePint = this.handleMinusOnePint.bind(this);
   }
 
   handleAddingNewKegToList(newKeg) {
+    // eslint-disable-next-line no-console
+    // console.log(newKeg);
     var newMasterKegList = this.state.masterKegList.slice();
     newMasterKegList.push(newKeg);
     this.setState({ masterKegList: newMasterKegList });
   }
 
   // need to link
-  handleMinusOnePint() { 
-
+  handleMinusOnePint(kegId) {   // needs to take in specific kegId
+    if (kegId === this.kegId) {
+      // eslint-disable-next-line no-console
+      console.log('this one');
+    }
   }
 
   render () {

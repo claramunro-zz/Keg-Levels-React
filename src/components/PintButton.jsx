@@ -1,12 +1,14 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 
-function pintButton(){
+
+function pintButton(){  // need to link to specifc keg item
+  
   return (
     <div>
       <style jsx global>{`
         #pintButton {
-          font-size: 15px;
-          padding: 1em 0 1em 2em;
+          padding: 1em;
           display: block;
         }
       `}</style>

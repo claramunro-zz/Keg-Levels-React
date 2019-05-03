@@ -29,9 +29,6 @@ import PropTypes from 'prop-types';
 // ];
 
 function KegList(props){
-  // eslint-disable-next-line no-console
-  console.log(props.newList);
-
   return (
     <div>
 
@@ -43,6 +40,7 @@ function KegList(props){
 
       <div>
         {props.newList.map((keg) =>
+          // eslint-disable-next-line react/jsx-key
           <Kegs
             name={keg.name}
             brand={keg.brand}
@@ -50,7 +48,7 @@ function KegList(props){
             alc={keg.alc}
             price={keg.price}
             pintsLeft={keg.pintsLeft}
-            key={keg.id}/>
+            id={keg.id}/>
         )}
       </div>
 

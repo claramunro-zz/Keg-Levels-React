@@ -15,7 +15,7 @@ function NewKeg(props){
   
   function handleNewKegSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({name: _name.value, _brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value, id: v4(), pintsLeft: 124});
+    props.onNewKegCreation({name: _name.value, brand: _brand.value, style: _style.value, alc: _alc.value, price: _price.value, id: v4(), pintsLeft: 124});
     _name.value = '';
     _brand.value = '';
     _style.value = '';
@@ -27,7 +27,7 @@ function NewKeg(props){
   return (
     <div>
 
-      <div class='formName'>
+      <div className='formName'>
         <p>New Keg Form</p>
         <form onSubmit={handleNewKegSubmission}>
           <input
