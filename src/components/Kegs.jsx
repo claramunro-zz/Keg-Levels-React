@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import PintButton from './PintButton';
 
 function Kegs(props){
   return (
@@ -17,7 +18,8 @@ function Kegs(props){
         <p><em>{props.style}</em></p>
         <p><b>{props.alc}</b></p>
         <p><b>{props.price}</b></p>
-        <p><b>{props.pintsLeft}</b></p>
+        <p><b>{props.pintsLeft} Pints Left</b></p>
+        <PintButton />
       </div>
 
     </div>
