@@ -46,6 +46,7 @@ function KegList(props){
             style={keg.style}
             alc={keg.alc}
             price={keg.price}
+            pintsLeft={124}
             key={index}/>
         )}
       </div>

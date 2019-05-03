@@ -4,11 +4,12 @@ Initially built with Angular, this is a react app to track bar keg levels. CRUD 
 
 ## Component Tree
 
+* I already added state components for the form -- going to work on implementing a keg starting at "124 pints" & a "sell 1 pint button" that will decrease the amount by 1. I think I will need to seperate the kegList to kegItems to keep track of each individual pints left.
+
 ![Component-Tree](/images/Keg-Levels.png)
 
 * Creating a seperate view for the New Keg Form
 * Error 404 Page, possibly add some styling
-* Once I add stateful components I'm sure things will change up a bit
 * React structure seems to make more sense to me than Angular, I'm sure there are something I don't know but so far I'm feeling good about it!
 
 ## Setup Instructions :gear:
