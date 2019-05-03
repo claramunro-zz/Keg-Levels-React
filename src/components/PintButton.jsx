@@ -2,7 +2,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 
 
-function pintButton(){  // need to link to specifc keg item
+function PintButton(){  // need to link to specifc keg item
   
   return (
     <div>
@@ -10,6 +10,7 @@ function pintButton(){  // need to link to specifc keg item
         #pintButton {
           padding: 1em;
           display: block;
+          background-color: yellow;
         }
       `}</style>
       <button type="submit" id="pintButton">-1 Pint</button>
@@ -17,4 +18,4 @@ function pintButton(){  // need to link to specifc keg item
   );
 }
 
-export default pintButton;
+export default PintButton;
