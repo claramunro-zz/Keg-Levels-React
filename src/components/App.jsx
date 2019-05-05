@@ -29,12 +29,12 @@ class App extends React.Component {
   }
 
   // need to link
-  handleMinusOnePint(kegId) {   // needs to take in specific kegId
-    if (kegId === this.kegId) {
-      // eslint-disable-next-line no-console
-      console.log('this one');
-    }
-  }
+  // handleMinusOnePint(kegId) {   // needs to take in specific kegId
+  //   if (kegId === this.kegId) {
+  //     // eslint-disable-next-line no-console
+  //     console.log('this one');
+  //   }
+  // }
 
   render () {
     return (
