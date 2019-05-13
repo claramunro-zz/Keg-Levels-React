@@ -36,6 +36,10 @@ Initially built with Angular, this is a react app to track bar keg levels. CRUD 
 * JavaScript
 * Hot Module Replacement
 
+## Design Mockup (not implmented)
+  <td><img src="/images/mockup.png"/></td>
+
+
 ## Known Bugs
 * None at this time, feel free to contact clarajmunro@gmail.com for questions.
 
