@@ -3,7 +3,8 @@
 Initially built with Angular, this is a react app to track bar keg levels. CRUD web application for a tap house.
 
 
-## Wireframes (not implemented yet)
+## Wireframes
+* (not implemented... yet)
   <td><img src="/images/mockup.png"/></td>
 
 ## Component Tree
