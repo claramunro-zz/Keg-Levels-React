@@ -3,14 +3,12 @@
 Initially built with Angular, this is a react app to track bar keg levels. CRUD web application for a tap house.
 
 
-## Design Mockup (not implmented)
+## Wireframes (not implemented yet)
   <td><img src="/images/mockup.png"/></td>
 
 ## Component Tree
 
 * I already added state components for the form -- going to work on implementing a keg starting at "124 pints" & a "sell 1 pint button" that will decrease the amount by 1. I think I will need to seperate the kegList to kegItems to keep track of each individual pints left.
-
-* Working on implementing functionality
 
 ![Component-Tree](/images/Keg-Levels.png)
 
